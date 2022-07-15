@@ -4,6 +4,7 @@ public protocol SettingsLegacyScreens {
     func launchHowToUse(in navController: UINavigationController)
     func launchInvite(in navController: UINavigationController)
     func launchContactUs(in navController: UINavigationController)
-    func launchPrivacyPolicy(in navController: UINavigationController)
+    func launchPrivacyPolicy()
     func launchChangeLanguage(in navController: UINavigationController)
+    func launchEula()
 }
